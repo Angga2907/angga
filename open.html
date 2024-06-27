@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Profil Pengguna</h1>
+            <form id="profileForm">
+                <label for="nama" style="color: #000;">Nama:</label>
+                <input type="text" id="nama" name="nama" required><br><br>
+    
+                <label for="umur" style="color: #000;">Umur:</label>
+                <input type="number" id="umur" name="umur" required><br><br>
+    
+                <label for="pekerjaan" style="color: #000;">Pekerjaan:</label>
+                <input type="text" id="pekerjaan" name="pekerjaan" required><br><br>
+    
+                <label for="tanggal" style="color: #000;">Tanggal</label>
+                <input type="date" id="tanggal" name="tanggal" required><br><br>
+    
+                <button class="only" type="submit">Simpan</button>
+
+                <a class="one" href="/index.html">Next</a>
+            </form>
+    
+            <div id="profileOutput">
+            </div>
+      </div>
+      <script src="/profile.js"></script>
+</body>
+</html>
